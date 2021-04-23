@@ -1,0 +1,93 @@
+/* CSS Document */
+
+#car_list{
+width:100%;
+height:250px;
+position:relative;
+background-color:#0066CC;
+top:60px;
+box-shadow: 3px 8px 2px #ccc;
+z-index:0;
+}
+#car_list_div{
+position:relative;
+top:5px;
+width:200px;
+left:40%;
+color:#fff;
+font-size:24px;
+font-weight:bolder;
+text-shadow:2px 2px 3px #000;
+}
+
+
+#contain10092er90yx{
+position:relative;
+top:150px;
+width:100%;
+height:500px;
+}
+#contain10092er90yx #tet001099{
+position:relative;
+top:5px;
+width:300px;
+left:40%;
+color:#000099;
+font-size:28px;
+font-weight:bolder;
+text-shadow:1px 1px 1px #000;
+
+}
+
+#box1{
+width:270px;
+height:380px;
+background-color:#fff;
+position:absolute;
+top:80px;
+left:8%;
+box-shadow: 1px 2px 2px 1px #888;
+border-radius:.25rem;
+
+}
+#box1 img {
+width:100%;
+height:200px;
+border-top-right-radius:.25rem;
+border-top-left-radius:.25rem;
+}
+#box1 #text010102xt{
+color:#505050;
+width:150px;
+position:relative;
+top:10px;
+left:10px;
+font-size:18px;
+font:Verdana, Arial, Helvetica, sans-serif;
+
+}
+#box1 #txt671xe{
+color:#003399;
+width:100px;
+position:relative;
+top:20px;
+left:10px;
+font-weight:bolder;
+font-size:18px;
+font:Arial, Helvetica, sans-serif;
+}
+#box1 #txt24gdhel{
+color:#505050;
+position:relative;
+top:5px;
+left:10px;
+font-size:18px;
+font:Verdana, Arial, Helvetica, sans-serif;
+}
+
+#box092px{
+position:relative;
+top:190px;
+width:100%;
+height:500px;
+}

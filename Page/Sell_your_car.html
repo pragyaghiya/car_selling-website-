@@ -1,0 +1,271 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../Css/Software_web_Css.css">
+
+<title>CARMAX</title>
+
+</head>
+
+<body>
+<script src="..\javascript\jquery-3.3.1.js" ></script>
+<link rel="stylesheet" href="..\Css\bootstrap-4.3.1-dist\css\bootstrap.css" ></link>
+<script src="..\Css\bootstrap-4.3.1-dist\js\bootstrap.min.js"></script>
+<div class="header">
+ <a href="../index.html"><img src="../Logo/Capture.PNG" /></a>
+<div id="b1">
+<button id="button121123" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="../Images/img_avatar2.png" alt="Avatar" class="avatar">    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input id="input1211" type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input id="input1211" type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button id="button12112" type="submit">Login</button>
+      <label>
+        <input id="input1211" type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button id="button12112" type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+
+
+<button id="button112121212" onClick="document.getElementById('avc12').style.display='block'" style="width:auto;">Sign Up</button>
+
+<div id="avc12" class="modal12345543">
+  <span onClick="document.getElementById('avc12').style.display='none'" class="close123409876" title="Close Modal">&times;</span>
+  <form class="modal-content12345654321" action="/action_page.php">
+    <div class="container12321">
+      <h1 style="color:#000000;">Sign Up</h1>
+      <p style="color:#000;">Please fill in this form to create an account.</p>
+      <hr>
+	  <label for="email"><b>Your Name</b></label>
+      <input id="input1111" type="text" placeholder="Enter Your Name" name="Your Name" required>
+
+      <label for="email"><b>Email</b></label>
+      <input id="input1111" type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input id="input1111" type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input id="input1111" type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+      <label>
+        <input id="input1111" type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p style="color:#000000;">By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button  id="button112121213" type="button" onClick="document.getElementById('avc12').style.display='none'" class="cancelbtn1230987">Cancel</button>
+        <button id="button112121213" type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('avc12');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+<ul>
+  <li><a href="Car_for_sale.html">CARS FOR SALE</a></li>
+  <li><a href="Sell_your_car.html">SELL YOUR CAR</a></li>
+  <li><a href="Financing.html">FINANCING</a></li>
+  <li><a href="Help_center.html">HELP CENTER</a></li>
+  <input id="input" type="text" />
+</ul>
+
+<div class="panel-group " style="border:2px; background-color:#F8F8F8; height:400px; box-shadow: 6px 3px #888888; top:100px; position:relative;">	
+	
+	<div class="panel-body" style="width:50%;text-align:Center;margin-left:30%;">
+	<div id="font">
+	Selling or trading in?			
+	</div>
+	<br/>
+	<span id="font2">
+		At CarMax, we'll buy your car even if you don't buy ours®. Stop by anytime or make an appointment below.		
+	</span>
+	<div>
+	<span>
+	<h3 >Tell us about your car, find out instantly if we'll buy it</h3>	
+	</span>
+	<br/>
+	<div id="sellCarValueOutput" style="Color:green;">
+	
+	</div>
+	<div id="sellCarValueErr" style="Color:red;">
+	
+	</div>
+	 
+		<form id="sellCarsForm">
+			<div >
+			<div class="form-group">
+			  <select id="year" name="year" class="form-control">
+					<option value="">--SELECT Year--</option>                    			  
+					<option value="2019">2019</option>
+					<option value="2018">2018</option>
+					<option value="2017">2017</option>
+					<option value="2016">2016</option>
+					<option value="2015">2015</option>
+					<option value="2014">2014</option>
+					<option value="2013">2013</option>
+					<option value="2012">2012</option>
+					<option value="2011">2011</option>
+					<option value="2010">2010</option>
+					<option value="2009">2009</option>
+					<option value="2008">2008</option>
+					<option value="2007">2007</option>
+					<option value="2006">2006</option>
+					<option value="2005">2005</option>
+					<option value="2004">2004</option>
+					<option value="2003">2003</option>
+					<option value="2002">2002</option>
+					<option value="2001">2001</option>
+					<option value="2000">2000</option>
+			  </select>
+			</div>
+			<div class="form-group">
+			  <select id="make" name="make" class="form-control">
+				<option value="">--SELECT Make--</option>
+			    <option value="BMW">BMW</option>
+				<option value="Audi">Audi</option>
+				<option value="Volkswagon">Volkswagon</option>
+				<option value="Cadillac">Cadillac</option>
+				<option value="Chevrolet">Chevrolet</option>
+				<option value="Datsun">Datsun</option>
+				<option value="Ferrari">Ferrari</option>
+				<option value="Ford">Ford</option>
+				<option value="Honda">Honda</option>
+				<option value="Mercedes">Mercedes</option>
+				<option value="Nissan">Nissan</option>
+				<option value="Porsche">Porsche</option>
+				<option value="Rolls-Royce">Rolls-Royce</option>
+				<option value="Toyota">Toyota</option>
+				<option value="Volkswagen ">Volkswagen </option>
+				
+			  </select>
+			</div>
+			<div class="form-group">
+			 <input id="currentMiles" name="currentMiles" class="form-control" placeholder="Current Miles"/>
+			 </div>
+			 <div class="form-group">
+		     <input type="submit" onclick="return sellCarFormSubmit();" class="btn btn-primary" value="Submit" class="form-control"></input>
+		     </div>
+		</div>
+		</form>
+			
+	</div>
+	
+	
+	</div>		
+		
+</div>
+	
+	
+		
+
+	
+</div>
+	
+	
+	
+<script>
+	 function sellCarFormSubmit(){
+	 $('#sellCarValueErr').empty();
+	   var year = document.getElementById('year').value;
+	   var model = document.getElementById('make').value;
+	   var currentMiles= document.getElementById('currentMiles').value;
+	   if(year=="" || year==null || model == "" || model==null || currentMiles == "" || currentMiles==""){
+	   $('#sellCarValueOutput').empty();
+	   $('#sellCarValueErr').html("<h3> Please enter year , model , currentMiles</h3>");
+	   } else{
+	   		sellCarValueOutput();
+			
+	   }
+	   return false;
+	 }
+	 
+	 function sellCarValueOutput(){
+	     var year = document.getElementById('year').value;
+	   var model = document.getElementById('make').value;
+	   var currentMiles= document.getElementById('currentMiles').value;
+	   
+	   if(model == "Audi" && currentMiles < 5000){
+		$('#sellCarValueOutput').empty();
+		 $('#sellCarValueOutput').html("<h3> value of car is 6,00,000 Lac INR</h3>");
+	   }
+	   else if(model=="BMW" && currentMiles < 5000){
+		$('#sellCarValueOutput').empty();
+		 $('#sellCarValueOutput').html("<h3> Value of car is 5,00,000 Lac INR</h3>");
+	   }
+	   else if(model=="Volkswagon" && currentMiles < 5000){
+		$('#sellCarValueOutput').empty();
+		 $('#sellCarValueOutput').html("<h3> Value of car is 4,00,000 Lac INR</h3>");
+	   }else if(currentMiles >= 5000){
+		$('#sellCarValueOutput').empty();
+		 $('#sellCarValueOutput').html("<h3> Value of car is 10,00,000 Lac INR</h3>");
+	   }
+	 }
+	 
+	</script>
+
+<div id="Container19910">
+<table width="1103" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="361"><a class="link121" href="Car_for_sale.html"><strong>CARS FOR SALE</strong></a></td>
+    <td width="258"><a class="link121" href="Sell_your_car.html"><strong>SELL YOUR CAR</strong></a></td>
+    <td width="291"><a class="link121" href="Financing.html"><strong>FINANCING</strong></a></td>
+    <td width="193"><a class="link121" href="Help_center.html"><strong>HELP CENTER</strong></a></td>
+  </tr>
+</table>
+
+</div>
+</body>

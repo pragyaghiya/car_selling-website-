@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="../Css/Software_web_Css.css">
+<title>CARMAX</title>
+<style>
+input[type=text], select, textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+
+<body>
+<div class="header">
+<a href="../index.html"><img src="../Logo/Capture.PNG"  /></a>
+ 
+ <div id="b1">
+<button id="button121123" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="../Images/img_avatar2.png" alt="Avatar" class="avatar">    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input id="input1211" type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input id="input1211" type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button id="button12112" type="submit">Login</button>
+      <label>
+        <input id="input1211" type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button id="button12112" type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+
+
+<button id="button112121212" onClick="document.getElementById('avc12').style.display='block'" style="width:auto;">Sign Up</button>
+
+<div id="avc12" class="modal12345543">
+  <span onClick="document.getElementById('avc12').style.display='none'" class="close123409876" title="Close Modal">&times;</span>
+  <form class="modal-content12345654321" action="/action_page.php">
+    <div class="container12321">
+      <h1 style="color:#000000;">Sign Up</h1>
+      <p style="color:#000;">Please fill in this form to create an account.</p>
+      <hr>	  <label for="email"><b>Your Name</b></label>
+      <input id="input1111" type="text" placeholder="Enter Your Name" name="Your Name" required>
+
+      <label for="email"><b>Email</b></label>
+      <input id="input1111" type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input id="input1111" type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input id="input1111" type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+      <label>
+        <input id="input1111" type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p style="color:#000000;">By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button  id="button112121213" type="button" onClick="document.getElementById('avc12').style.display='none'" class="cancelbtn1230987">Cancel</button>
+        <button id="button112121213" type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('avc12');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+<ul>
+  <li><a href="Car_for_sale.html">CARS FOR SALE</a></li>
+  <li><a href="Sell_your_car.html">SELL YOUR CAR</a></li>
+  <li><a href="Financing.html">FINANCING</a></li>
+  <li><a href="Help_center.html">HELP CENTER</a></li>
+   <input id="input" type="text" />
+</ul>
+
+<div id="contact_box">
+  <div style="position:relative; top:20px; color:#fff; font:Verdana, Arial, Helvetica, sans-serif; font-size:32px; font-weight:bolder;  text-shadow: 2px 2px #c1d1c1; left:40%; width:240px;"> CONTACT US </div>
+  <pre>
+<form action="action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." />
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+	  <option value="usa">India</option>
+	  <option value="usa">Dubai</option>
+	  <option value="usa">Bankong</option>
+	  <option value="usa">England</option>
+	  <option value="usa">Saudi Arab</option>
+	  <option value="usa">London</option>
+	  <option value="usa">japan</option>
+    </select>
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+    <input name="submit" type="submit" value="Submit" />
+  </form>
+  </pre>
+</div>
+</div>
+<div style="position:absolute; left: 14px; top: 324px; width: 464px; height: 392px;">
+<img width="553" height="388" src="../Images/20170807080540-shutterstock-690789880.jpeg" /></div>
+</body>

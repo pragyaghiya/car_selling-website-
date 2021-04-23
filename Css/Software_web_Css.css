@@ -1,0 +1,486 @@
+body{
+padding:0px;
+margin:0px;
+}
+.header{
+width:100%;
+height:150px;
+position:relative;
+top:0px;
+background-color:#fff;
+}
+
+
+/* Full-width input fields */
+#input1211[type=text], #input1211[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  
+}
+
+/* Set a style for all buttons */
+
+#button121123{
+  background-color:#FF6600;
+  color: white;
+  padding: 14px 30px;
+  margin: 0px 0;
+  border: none;
+  cursor: pointer;
+  position:relative;
+  left:0%;
+  top:0px;
+  
+}
+
+
+#button12112 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+#button12112:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+
+
+#input1111[type=text], #input1111[type=password] {
+  width: 98%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  color:#000;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+#input1111[type=text]:focus, #input1111[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+label{
+color:#000000;
+position:relative;
+left:0px;
+}
+
+/* Set a style for all buttons */
+#button112121212 {
+  background-color: #000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+#button112121213{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+#button112121212:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn1230987 {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn1230987, .signupbtn {
+  float: left;
+  width: 50%;
+  
+}
+
+/* Add padding to container elements */
+.container12321 {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal12345543 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+ 
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content12345654321 {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+
+ 
+/* The Close Button (x) */
+.close123409876 {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close123409876:hover,
+.close123409876:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+#input[type=text] {
+  width: 130px;
+  
+  top:40px;
+  left:70%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image:url(../Logo/search-icon-png-2.png);
+  background-position: 4px 8px;
+  background-size: 30px 30px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+#input[type=text]:focus {
+  width: 30%;
+}
+#b1{
+width:200px;
+height:25px;
+position:absolute;
+color:#FFFFFF;
+font-weight:bolder;
+top:0px;
+left:80%;
+text-align:center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#BCBCBC;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index:1;
+  
+  
+}
+
+li {
+  float: left;
+  width:200px;
+  font-weight:bolder;
+  
+  
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:#FFF;
+  color:#B8B8B8;
+}
+
+#container{
+position:relative;
+width:100%;
+height:500px;
+background-image:url(../Images/carmax5_orig.jpg);
+
+background-repeat:no-repeat;
+z-index:-1;
+}
+#container h1{
+	position:absolute;
+	top:19px;
+	left:278px;
+	letter-spacing:2px;
+	width:742px;
+	color:#FFFFFF;
+	font-size:44px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#container h2{
+position:absolute;
+top:150px;
+left:481px;
+color:#FFFFFF;
+letter-spacing:3px;
+font-family:Geneva, Arial, Helvetica, sans-serif;
+font-size:22px;
+}
+
+#images12309{
+width:310px;
+height:200px;
+}
+
+#container2{
+position:relative;
+width:100%;
+height:1630px;
+top:0px;
+z-index:-1;
+}
+
+#font{position:relative;
+top:40px;
+color:#0000CC;
+font-size:28px;
+font-weight:bolder;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+text-align:center;
+text-transform:capitalize;
+}
+#font2{position:relative;
+top:60px;
+color:#929292;
+font-size:12px;
+font-weight:bolder;
+font-family:Arial, Helvetica, sans-serif;
+text-align:center;
+text-transform:capitalize;
+}
+#Container19910{
+position:relative;
+background-color:#006699;
+height:100px;
+width:100%;
+top:400px;
+}
+
+/*#Container19910 table a {*/
+
+#container2 #b000ox1212{
+position:relative;
+width:80%;
+height:220px;
+left:10%;
+top:90px;
+background-color:#fff;
+box-shadow:-1px 2px 2px 4px #888888;
+}
+#container2 #b000ox1212 #p123{
+position:relative;
+font-size:18px;
+font-weight:bolder;
+color:#000000;
+top:30px;
+left:35%;
+width:420px;
+}
+
+
+#con121123{
+background-color:#fff;
+width:900px;
+height:800px;
+position:relative;
+top:10px;
+box-shadow: 2px 1px 2px 4px #888888;
+left:200px;
+z-index:-1;
+}
+
+#table #images{
+width:40px;
+height:40px;
+}
+
+
+
+
+#contact_box{
+position:relative;
+width:800px;
+height:500px;
+top:40px;
+left:45%;
+background-color:#F4F4F4;
+}
+
+
+.link121{
+color:#fff;
+font-size:18px;
+font-weight:bolder;
+text-decoration:none;
+padding:5px;
+margin:20px;
+position:relative;
+top:40px;
+left:50%;
+
+}
+.link121 a{
+text-decoration:none;
+}
